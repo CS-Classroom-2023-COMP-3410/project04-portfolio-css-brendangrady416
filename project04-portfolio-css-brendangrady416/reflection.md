@@ -1,0 +1,3 @@
+Project 4 - Portfolio with CSS
+
+This project went well. It was fairly easy because I was able to use the HTML from the last project and I began by linking a bootstrap framework which took care of a lot of the look of the site as well as most of the responsiveness. I then went into a seperate CSS file to give the site some originality and also added some internal CSS where needed in the header of each file. I am much happier with the results of this site that the previous version. 

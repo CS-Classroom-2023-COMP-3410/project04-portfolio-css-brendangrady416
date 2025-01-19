@@ -1,0 +1,49 @@
+/* External CSS File */
+
+/* Color body background and set font */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+/* Set the color and interactivity if the navbar */
+.navbar {
+    background-color: #002855;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #a1c4fd !important;
+}
+
+/* Set the color and spacing of the header */
+header {
+    background: linear-gradient(90deg, #007991, #78ffd6);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Set the color and spacing of the footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #002855;
+    color: white;
+    border-top: 5px solid #78ffd6;
+}
+
+/* Set the color and interactivity of the buttons */
+.btn-custom {
+    background-color: #007991;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.btn-custom:hover {
+    background-color: #005f70;
+    color: #fff;
+}

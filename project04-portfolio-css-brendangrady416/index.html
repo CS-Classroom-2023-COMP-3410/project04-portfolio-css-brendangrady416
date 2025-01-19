@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to my personal website.">
+    <title>Home - My Personal Website</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        @media screen and (min-width: 1200px) {
+            .campImg {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .campImg img {
+                margin: 50px;
+            }
+            .campImg p {
+                max-width: 40%;
+                font-size: 1.2em;
+                line-height: 1.8;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactMe.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myProjects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <header>
+            <h1>Brendan Grady</h1>
+            <h2>Student at the University of Denver</h2>
+        </header>
+
+        <div class="content my-4">
+            <div class="campImg">
+                <img src="https://www.adventuresincre.com/university/wp-content/uploads/2024/07/University-of-Denver-.webp" alt="DU Campus">
+
+                <p>
+                    Hi, I am Brendan. I am from Massachusetts and am currently living in Colorado attending the University of Denver. 
+                    When not in class, my hobbies include watching sports, playing video games, running, and completing my Web Programming assignments.
+                </p>
+            </div>
+            <br>
+
+            <h3 class="text-center my-4">A Comprehensive List of Tom Brady's NFL Records</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Most career passing touchdowns</li>
+                <li class="list-group-item">Most career passing yards</li>
+                <li class="list-group-item">Most Super Bowl wins by a player (7)</li>
+                <li class="list-group-item">Most Super Bowl MVP awards (5)</li>
+                <li class="list-group-item">Most career completions</li>
+                <li class="list-group-item">Most games won by a quarterback</li>
+                <li class="list-group-item">Oldest player to win a Super Bowl</li>
+                <li class="list-group-item">Most Pro Bowl selections</li>
+                <li class="list-group-item">Most playoff wins</li>
+                <li class="list-group-item">Most playoff games started</li>
+            </ul>
+
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-custom">Back to Top</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Brendan Grady. All Rights Reserved.
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
